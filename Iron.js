@@ -1,9 +1,9 @@
 class Iron {
     constructor(x, y) {
       var options = {
-        'density':1.8,
-        'friction':2,
-        'restitution':2
+        'density':30,
+        'friction':3,
+        'restitution':0.8
       };
       this.body = Bodies.rectangle(x, y, 40, 40, options);
       this.width = 50;
